@@ -2,8 +2,10 @@
     "title": "Resume",
     "name": "startbootstrap-resume",
     "version": "5.0.7",
+    "homepage": "https://github.io/regime235/my-web-portfolio",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "deploy": "gh-pages"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
@@ -14,7 +16,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
         "email": "feedback@startbootstrap.com"
