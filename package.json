@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "my webpage",
   "main": "gulpfile.js",
-  "homepage": "https://github.com/regime235/my-web-portfolio#readme",
+  "homepage": "https://github.io/regime235/my-web-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
@@ -16,6 +16,10 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/regime235/my-web-portfolio/issues"
+  },
+  "dependencies": {
+    "gh": "^2.0.6",
+    "gh-pages": "^2.1.1",
+    "pages": "0.0.16"
   }
-  
 }
